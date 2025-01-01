@@ -12,7 +12,7 @@ $ pip install -r requirements.txt
 $ python read.py
 ```
 
-If you want to read more or different parameters, run `python dump.py` and check the resulting files, what is available. 
+If you want to read more or different parameters, run `python dump.py` and check the resulting dumps, to see what is available. 
 
 Note that some parameters are only available in the paid tier of the Viessmann API.
 
