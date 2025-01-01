@@ -1,0 +1,4 @@
+[credentials]
+client_id = "your_client_id"
+email = "your_email@example.com"
+password = "your_password"
