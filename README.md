@@ -17,4 +17,6 @@ If you want to read more or different parameters, run `python dump.py` and check
 
 Note that some parameters are only available in the paid tier of the Viessmann API.
 
+I added a visualization of the data, see [here](heatpump_visuals.ipynb).
+
 This is based on the [PyViCare](https://github.com/openviess/PyViCare) library.
