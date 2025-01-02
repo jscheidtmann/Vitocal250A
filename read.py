@@ -102,9 +102,9 @@ def get_circuit_HKSupplyTemp(circ: HeatingCircuit) -> str:
     return str(circ.getSupplyTemperature())
 
 # The Target Supply Temperature is calculated from other paramters, NOT READ FROM DEVICE
-# ()
-# def get_circuit_HKTargetSupplyTemp(circ: HeatingCircuit) -> str: 
-#     return str(circ.getTargetSupplyTemperature())
+ 
+def get_circuit_HKTargetSupplyTemp(circ: HeatingCircuit) -> str: 
+     return str(circ.getTargetSupplyTemperature())
 
 def get_circuit_HKWunschTemp(circ: HeatingCircuit) -> str: 
     return str(circ.getCurrentDesiredTemperature())
