@@ -2,4 +2,6 @@ token.save
 dump*.json
 *.csv
 .venv
+.ipynb_checkpoints
 config.ini
+*.png
