@@ -1,5 +1,6 @@
 import sys
 import logging
+import json
 import configparser
 from PyViCare.PyViCare import PyViCare
 
@@ -23,6 +24,8 @@ for d in vicare.devices:
 
     with open(f"dump{i}.json", mode='w') as output:
         output.write(vicare.devices[i].dump_secure())
+        # dump including "secrets"
+        # output.write(json.dumps(vicare.devices[i].get_raw_json(), indent=4, sort_keys=True))
     
     i = i+1
 
