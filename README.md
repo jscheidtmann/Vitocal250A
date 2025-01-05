@@ -16,7 +16,7 @@ $ python read.py
 If you want to read more or different parameters, run `python dump.py` and check the resulting dumps, to see what is available. 
 Note that some parameters are only available in the paid tier of the Viessmann API, check their documentation.
 
-Then check the path in `[run_read.sh](run_read.sh)` and add that to your crontab.
+Then check the path in [run_read.sh](run_read.sh) and add that to your crontab.
 
 I added a visualization of the data, see [here](heatpump_visuals.ipynb).
 
